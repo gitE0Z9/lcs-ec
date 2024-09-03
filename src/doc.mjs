@@ -7,7 +7,7 @@ import { dirname } from 'path';
 const doc = {
     info: {
         title: 'LSC EC API',
-        description: '湛積 電商作業'
+        description: '湛積作業 電商API'
     },
     host: 'localhost:3000'
 };
