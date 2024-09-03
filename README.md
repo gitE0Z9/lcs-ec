@@ -49,6 +49,12 @@
 
 `yarn start`
 
+visit http://localhost:3000
+
 ### Generate swagger documentation
 
 `yarn build:doc`
+
+Manually built, should execute each time updated
+
+visit http://localhost:3000/docs
