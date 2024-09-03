@@ -1,0 +1,17 @@
+extends:
+  - eslint:recommended
+  - plugin:@typescript-eslint/recommended
+  - plugin:mocha/recommended
+parser: "@typescript-eslint/parser"
+plugins:
+  - "@typescript-eslint"
+  - mocha
+rules:
+  no-shadow: off
+  "@typescript-eslint/no-shadow":
+    - error
+  no-use-before-define: off
+  "@typescript-eslint/no-use-before-define":
+    - error
+env:
+  mocha: true
